@@ -5,6 +5,7 @@
     --black: #1F1F1F;
     --gray:#707070;
     --white:#D6D6D6;
+    --current-menu-black:#2e2e2e;
     --blue: #54d3c4;
     --lightblue:#a1cfc9;
     --red:#d94a43;
@@ -17,4 +18,26 @@ body{
 
 #menu{
     background-color: var(--black);
+}
+
+.menu_li{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    background-color: var(--black);
+}
+
+.menu_current_page{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    background-color: var(--current-menu-black);
+}
+
+.menu_li :hover{
+    background-color: var(--black);
+    color: var(--lightblue);
+    text-shadow: 0px 0px 3px var(--lightblue);
+}
+
+.menu_current_page :hover{
+    background-color: var(--current-menu-black);
 }
