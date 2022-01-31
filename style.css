@@ -1,3 +1,20 @@
+:root{
+
+    /* variables based on palette color: "Coding Guide" on coolors */
+
+    --black: #1F1F1F;
+    --gray:#707070;
+    --white:#D6D6D6;
+    --blue: #54d3c4;
+    --lightblue:#a1cfc9;
+    --red:#d94a43;
+    
+}
+
 body{
-    background-color: #000 ;
+    background-color: var(--white);
+}
+
+#menu{
+    background-color: var(--black);
 }
