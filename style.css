@@ -2,6 +2,8 @@
 
     /* variables based on palette color: "Coding Guide" on coolors */
 
+    /* White mode */
+
     --black:#1F1F1F;
     --gray:#707070;
     --white:#D6D6D6;
@@ -10,6 +12,8 @@
     --lightblue:#a1cfc9;
     --red:#d94a43;
     
+    /* Dark mode */
+
 }
 
 body{
