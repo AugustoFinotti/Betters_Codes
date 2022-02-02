@@ -23,6 +23,7 @@ body{
 #menu{
     background-color: var(--black);
     color:var(--white);
+    padding-bottom: 4.45rem;
 }
 
 .menu_li{
@@ -41,27 +42,20 @@ body{
     0%{ color:var (--white); }
 
     0.02%{
-        color:var(--lightblue);
-        text-shadow: 0px 0px 20px var(--lightblue);
+        color:#fff;
+        text-shadow: 0px 0px 20px #fff;
+        border-bottom: solid 3px var(--gray);
     }
 }
 
 .menu_current_page{
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    background-color: var(--current-menu-black);
+    background-color: var(--black);
+    border-bottom: solid 3px var(--red);
+    text-shadow: 0px 0px 20px var(--white);
 }
 
 .menu_current_page :hover{
-    background-color: var(--current-menu-black);
-    animation: menu_current_text_light 1000s;
-}
-
-@keyframes menu_current_text_light{
-    0%{ color:var (--white); }
-
-    0.02%{
-        color:var(--white);
-        text-shadow: 0px 0px 20px var(--white);
-    }
+    background-color: var(--black);
 }
