@@ -6,7 +6,7 @@
 
     --black:#1F1F1F;
     --gray:#707070;
-    --white:#D6D6D6;
+    --white:#F5F5F5;
     --current-menu-black:#303030;
     --blue: #54d3c4;
     --lightblue:#a1cfc9;
@@ -58,4 +58,35 @@ body{
 
 .menu_current_page :hover{
     background-color: var(--black);
+}
+
+.main_body{
+    margin: 100px 200px;
+    display: grid;
+}
+
+#html5_icon{
+    display: inline-block;
+    max-width: 70px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+/* .main_title{
+    background-color: #54d3c4;
+} */
+
+.text_main_title{
+    display: inline-block;
+    height: 6.4em;
+    padding-top: 19px;
+    padding-bottom: 20px;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.main_h3{
+    display: inline-block;
+    float: right;
+    margin: 10px;
 }
