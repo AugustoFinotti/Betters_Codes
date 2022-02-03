@@ -65,7 +65,7 @@ body{
     display: grid;
 }
 
-#html5_icon{
+.title_icon{
     display: inline-block;
     max-width: 70px;
     margin-top: 22px;
