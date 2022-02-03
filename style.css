@@ -5,9 +5,11 @@
     /* White mode */
 
     --black:#1F1F1F;
-    --gray:#707070;
+    --blacker:#181818;
+    --grey:#707070;
     --white:#F5F5F5;
     --current-menu-black:#303030;
+    --real-blue: #3477BD;
     --blue: #54d3c4;
     --lightblue:#a1cfc9;
     --red:#d94a43;
@@ -21,7 +23,7 @@ body{
 }
 
 #menu{
-    background-color: var(--black);
+    background-color: var(--blacker);
     color:var(--white);
     padding-bottom: 4.45rem;
 }
@@ -29,12 +31,12 @@ body{
 .menu_li{
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    background-color: var(--black);
+    background-color: var(--blacker);
 }
 
 
 .menu_li :hover{
-    background-color: var(--black);
+    background-color: var(--blacker);
     animation: menu_text_light 1000s;
 }
 
@@ -51,13 +53,13 @@ body{
 .menu_current_page{
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    background-color: var(--black);
+    background-color: var(--blacker);
     border-bottom: solid 3px var(--red);
     text-shadow: 0px 0px 20px var(--white);
 }
 
 .menu_current_page :hover{
-    background-color: var(--black);
+    background-color: var(--blacker);
 }
 
 .main_body{
@@ -96,4 +98,21 @@ body{
     display: inline-block;
     float: right;
     margin: 10px;
+}
+
+.page-footer{
+    color: var(--white);
+    background-color: var(--black);
+}
+
+.footer-cp{
+    background-color: var(--blacker);
+}
+
+.footer_link {
+    color: var(--white);
+}
+
+.footer_link :hover{
+    color: var(--real-blue);
 }
