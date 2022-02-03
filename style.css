@@ -72,6 +72,13 @@ body{
     margin-bottom: 22px;
 }
 
+#php_icon{
+    display: inline-block;
+    max-height: 90px;
+    margin-top: 22px;
+    margin-bottom: 7px;
+}
+
 /* .main_title{
     background-color: #54d3c4;
 } */
