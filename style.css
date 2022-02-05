@@ -9,7 +9,7 @@
     --grey:#707070;
     --white:#F5F5F5;
     --current-menu-black:#303030;
-    --real-blue: #3477BD;
+    --real-blue: #3376B2;
     --blue: #54d3c4;
     --lightblue:#a1cfc9;
     --red:#d94a43;
@@ -109,10 +109,23 @@ body{
     background-color: var(--blacker);
 }
 
-.footer_link {
+.footer_link_text {
     color: var(--white);
 }
 
-.footer_link :hover{
+.footer_links{
+    display: inline-block;
+}
+
+.footer_link_text :hover{
     color: var(--real-blue);
+}
+
+.devicon-linkedin-plain {
+    align-self: center;
+    float: left;
+}
+
+.devicon-github-original {
+    float: left;
 }
